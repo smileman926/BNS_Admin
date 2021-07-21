@@ -1,0 +1,77 @@
+@import './../../style/variables.scss';
+
+.box {
+  margin: 20px;
+  width: 100%;
+  margin-bottom: auto;
+}
+div.container {
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .title {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+button.btnAdd {
+  width: initial;
+  // display: inline;
+}
+
+tr.danger {
+  td {
+    color: rgb(228, 10, 10) !important;
+  }
+}
+
+.setFFL {
+  display: flex;
+  > * {
+    flex-shrink: 0;
+  }
+}
+
+.search {
+ border-radius: 0;
+}
+
+.colType {
+  text-transform: capitalize;
+}
+.warning {
+  color: red;
+}
+td.smallCol {
+  width: 80px !important;
+}
+
+.duplicateBtn{
+  padding: 0 15px;
+  height: 30px;
+  background-color: $colorAccent;
+  border-radius: 60px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  border:none;
+  outline: none;
+  align-items: center;
+  cursor: pointer;
+  line-height: 1.1;
+
+  &:hover {
+    background-color: darken($colorAccent, 15);
+    color: #ffffff;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+};

@@ -1,0 +1,42 @@
+@import "../../../style/variables.scss";
+
+.wrapper {
+  margin: 20px 20px 5px 20px;
+  padding: 20px 30px;
+  align-self: flex-start;
+  width: 100%;
+  background-color: $colorGrey;
+}
+
+.title {
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 20px 0px;
+};
+.genCont{
+  margin-bottom: 10px;
+};
+
+.settingsCont{
+  display: flex;
+  flex-flow: column;
+};
+.btn{
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 150px;
+  background-color: #01f404;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  height: initial;
+  font-weight: 700;
+  color: #000;
+};
+.btn:hover{
+  background-color: #01cb03;
+  color: #fff;
+  cursor: pointer;
+};

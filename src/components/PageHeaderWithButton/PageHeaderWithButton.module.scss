@@ -1,0 +1,30 @@
+@import "./../../style/variables.scss";
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+};
+.btn{
+    cursor: pointer;
+    padding: 0 30px;
+    height: 50px;
+    background-color: $colorAccent;
+    border-radius: 60px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    border:none;
+    outline: none;
+    align-items: center;
+
+    &:hover {
+      background-color: darken($colorAccent, 15);
+      color: #ffffff;
+    }
+  };
+.title{
+  font-size: 24pt;
+};

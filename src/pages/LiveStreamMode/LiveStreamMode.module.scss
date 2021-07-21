@@ -1,0 +1,74 @@
+@import "./../../style/variables.scss";
+.box {
+  margin: 20px;
+  width: 100%;
+  margin-bottom: auto;
+}
+.container {
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+  .title {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.manual {
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 12px 0 0;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .switch {
+    box-shadow: 0 0 5px white !important;
+  }
+}
+
+div.container {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+button.btn {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webinarName {
+  // font-family: $fontWorkSans;
+  // font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: $colorGrey;
+
+  .icon {
+    margin-right: 20px;
+    svg {
+      $size: 40px;
+      fill: $colorGrey;
+      width: $size;
+      height: $size;
+    }
+  }
+}

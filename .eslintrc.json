@@ -1,0 +1,51 @@
+{
+  "env": {
+    "node": false,
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "react-app",
+    "airbnb",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "prettier"
+  ],
+  "rules": {
+    "max-len": [
+      2,
+      120
+    ],
+    "react-hooks/exhaustive-deps":  "off",
+    "react/jsx-props-no-spreading": 0,
+    "react/prop-types": 0,
+    "react/button-has-type": 0,
+     "jsx-quotes": [
+       "error",
+        "prefer-single"
+     ],
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "no-underscore-dangle": "warn",
+    "camelcase": "warn",
+    "no-shadow": "warn"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "src"
+        ]
+      }
+    }
+  }
+}
+

@@ -1,0 +1,142 @@
+@import "../../../style/variables.scss";
+
+.wrapper {
+  padding: 10px;
+  align-self: flex-start;
+  width: 100%;
+  background-color: $colorGrey;
+};
+
+.cnt{
+  display: flex ;
+  align-items: baseline;
+};
+.title {
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 20px 0px;
+};
+.genCont{
+  margin-bottom: 10px;
+};
+
+.settingsCont{
+  display: flex;
+  flex-flow: column;
+};
+.btn{
+  outline: none !important;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  margin-left: 20px !important;
+  width: 150px !important;
+  background-color: #01f404 !important;
+  border: none !important;
+  border-radius: 30px !important;
+  text-transform: uppercase !important;
+  padding: 15px 20px !important;
+  height: initial !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+};
+.btn:hover{
+  background-color: #01cb03 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+};
+.datePicker{
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 220px;
+  border-radius: 25px;
+  background: transparent;
+  border: 2px solid #a8a8a8;
+  margin-bottom: 10px;
+  margin-top: 20px;
+};
+.dp{
+  background: transparent !important;
+  border: none !important;
+  color: #f1f1f1 !important;
+  outline: none!important;
+};
+.divider{
+  height: 100% !important;
+};
+.calendarIcon{
+  margin: 5px 5px 5px 0;
+};
+.sbiw {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+  .sui {
+      width: 100px;
+      height: 100px;
+      border-radius: 14px;
+      border: 1.5px dashed grey;
+      padding: 5px;
+      margin-right: 20px;
+
+      div {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          background-color: #444444;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+
+          label {
+              color: white;
+              margin-bottom: 0;
+              cursor: pointer;
+              
+              &:first-of-type {
+                  font-size: 28px;
+              }
+
+              &:last-of-type {
+                  font-size: 12px;
+              }
+          }
+      }
+  }
+  
+  .prebackimg {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      border: 1px solid #666666;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      padding: 2px;
+
+      &:hover {
+          box-shadow: 0 0 5px #e41c39;
+          border-color: #e41c39;
+          cursor: pointer;
+      }
+
+      &.active {
+          box-shadow: 0 0 5px #e41c39;
+          border-color: #e41c39;
+      }
+
+      img {
+          width: 100%;
+          height: 100%;
+          border-radius: 8px;
+      }
+  }
+}
+.dropzone:focus {
+  outline: 0;
+}

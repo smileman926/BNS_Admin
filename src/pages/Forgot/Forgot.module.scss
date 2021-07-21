@@ -1,0 +1,27 @@
+@import "./../../style/variables.scss";
+
+div.wrp {
+  min-width: 460px;
+  padding-bottom: 50px;
+}
+
+.confirm {
+  text-align: center;
+}
+
+.link {
+  background-color: $colorAccent;
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  border-radius: 40px;
+  font-size: 18px;
+  font-family: $fontWorkSans;
+
+  &:hover {
+    color: #fff;
+  }
+}

@@ -1,0 +1,37 @@
+@import "./../../style/variables.scss";
+
+.titleLimit {
+  color: $colorLightGrey;
+  font-family: $fontWorkSans;
+
+}
+
+.search {
+  height: 40px!important;
+  margin-left: 20px;
+  background: transparent!important;
+  border-radius: 6px!important;
+  border-color: #7e7e7e!important;
+  input {
+    border-radius: 6px;
+    padding: 3px 10px;
+
+    border-color: $colorLightGrey;
+    &::placeholder {
+      font-family: $fontWorkSans;
+      font-size: 14px;
+    }
+  }
+
+}
+.input{
+  height: 33px !important;
+  margin-left: 95px !important;
+  border-radius: 6px !important;
+};
+.colPagination {
+  margin-left: auto;
+}
+.container{
+  display: flex;
+}

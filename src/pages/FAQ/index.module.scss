@@ -1,0 +1,49 @@
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+};
+.title{
+  flex: 1;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 38px;
+  align-self: center;
+};
+.questCont{
+  display: flex;
+  flex-flow: row wrap;
+};
+.titleCont{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+};
+.addNewBtn{
+  height: 50px;
+  color:#000000;
+  width: 150px;
+  border: none;
+  border-radius: 26px;
+  outline: none;
+  font-family: sans-serif;
+  background: #01f404;
+};
+
+.addNewBtn:hover{
+  cursor: pointer;
+  background: #01cb03;
+  color: #ffffff;
+};
+.noFaqsCont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+};

@@ -1,0 +1,30 @@
+@import "./../../style/variables.scss";
+.social_link {
+  color: #909090;
+  width: 100%;
+  padding: 10px;
+
+  .title {
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+  }
+
+  .label {
+    padding: 10px 0px;
+    width: 70%;
+  }
+
+  .social_link {
+    min-width: 180px;
+  }
+
+  .save_button {
+    width: 150px;
+  }
+}
+.link{
+  &:disabled{
+    background: #515151!important;
+  }
+}

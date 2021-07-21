@@ -1,0 +1,70 @@
+@import "./../../style/variables.scss";
+.cont{
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+};
+
+.row{
+  background-color: #5f5f5f;
+};
+.contain{
+  display: flex;
+  justify-content: center;
+};
+
+.inptCont{
+  display: flex;
+  margin-right: 10px;
+};
+
+.leftInpt{
+  outline: none;
+  background: transparent;
+  padding-left: 15px;
+  border: 2px solid#5f5f5f;
+  width: 60%!important;
+  border-radius: 18px 0 0 18px!important;
+  height: 40px!important;
+  color: #f1f1f1;
+  &::placeholder{
+    color: #f1f1f1!important;
+  }
+};
+
+.rightInpt{
+  border: 2px solid#5f5f5f;
+  outline: none;
+  background: transparent;
+  padding-left: 15px;
+  width: 40%!important;
+  border-radius: 0 18px 18px 0!important;
+  height: 40px!important;
+  color: #01f404;
+};
+
+.btn{
+  cursor: pointer !important;
+  padding: 0 30px !important;
+  height: 40px !important;
+  background-color: $colorAccent ;
+  border-radius: 60px !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  display: flex !important;
+  border:none !important;
+  outline: none !important;
+  align-items: center !important;
+
+  &:hover {
+    background-color: darken($colorAccent, 15);
+    color: #ffffff!important;
+  }
+};
+
+.greyedBtn{
+ background-color: #5f5f5f!important;
+};

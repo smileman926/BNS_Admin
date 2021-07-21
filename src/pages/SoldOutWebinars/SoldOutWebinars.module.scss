@@ -1,0 +1,131 @@
+@import "./../../style/variables.scss";
+.box {
+  margin: 20px;
+  width: 100%;
+  margin-bottom: auto;
+}
+.container {
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .title {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+div.container {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+// .datePickerStyle { :global { .ant-picker-now{ display: none; } } }
+
+// .search {
+//   margin-left: 20px;
+//   input {
+//     border-radius: 6px;
+//     padding: 3px 10px;
+//     border-color: $colorLightGrey;
+//     &::placeholder {
+//       font-family: $fontWorkSans;
+//       font-size: 14px;
+//     }
+//   }
+
+//   .ant-input-search-button {
+//     background: none !important;
+//   }
+// }
+
+// .colPagination {
+//   margin-left: auto;
+// }
+
+// .titleLimit {
+//   color: $colorLightGrey;
+//   font-family: $fontWorkSans;
+// }
+
+button.liveBtn {
+  background: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border-color: $colorAccent;
+  border-width: 3px;
+  line-height: 1;
+  font-size: 13px;
+  color: #fff;
+  background-color: darken($colorGrey, 5);
+  height: auto;
+  padding: 10px 13px;
+
+  &:focus,
+  &:hover {
+    background: inherit;
+    color: inherit;
+    border-color: inherit;
+  }
+}
+
+.duplicateBtn{
+  padding: 0 15px;
+  height: 30px;
+  background-color: $colorAccent;
+  border-radius: 60px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  border:none;
+  outline: none;
+  align-items: center;
+  cursor: pointer;
+  line-height: 1.1;
+
+  &:hover {
+    background-color: darken($colorAccent, 15);
+    color: #ffffff;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+};
+
+.sendUrl {
+  &_title {
+    margin: 0;
+    padding: 10px;
+    color: $colorGrey;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+input.sendUrl_input {
+  border-color: #f1f1f1;
+  background-color: #f1f1f1 !important;
+  color: #000;
+
+  &:hover,
+  &:focus {
+    background: #f1f1f1;
+  }
+}
+button.sendUrl_submit {
+  margin: auto;
+  display: block;
+  // text-align: center;
+  max-width: 130px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
+.pointer{
+  cursor: pointer;
+};

@@ -1,0 +1,111 @@
+@import './../../style/variables.scss';
+.aside {
+  grid-area: aside;
+  // display: none;
+
+  background-color: $colorSecondary;
+  min-width: 300px;
+}
+
+.menu {
+}
+
+.menuLink {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  transition: all 0.2s;
+  background: none;
+  border: none;
+
+  &:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: darken($colorSecondary, 5);
+    border-right: 5px solid #fff;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.selectedItemLink {
+  border-right: 5px solid #fff;
+  background-color: $colorPrimary !important;
+}
+
+.btnDrop {
+  padding: 20px;
+  display: block;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  border-right: 5px solid transparent;
+  transition: 0.2s all;
+
+  &:hover {
+    color: #fff;
+    background-color: darken($colorSecondary, 5);
+    border-right-color: #fff;
+    cursor: pointer;
+  }
+  &:focus,
+  &:target {
+    outline: none;
+  }
+
+  > span {
+    margin-left: auto;
+    // display: block;
+    font-size: 25px;
+  }
+
+  &.open {
+    background-color: $colorPrimary;
+    border-right-color: #fff;
+  }
+}
+.subSelectItemLink,
+.subItemLink {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #bec2cb;
+
+  &:hover {
+    color: #fff;
+    background-color: #21286c;
+  }
+}
+
+.subSelectItemLink {
+  background-color: #21286c;
+  color: #fff;
+}
+.arrowActive {
+  transform: rotate(90deg);
+  transition: all 0.4s ease-in-out 0s;
+}
+.productLink {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: baseline;
+}
+
+.linkDiv {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.dropMenu:empty {
+}

@@ -1,0 +1,80 @@
+@import "../../style/variables.scss";
+
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  width: 95%;
+};
+.row{
+  background-color: #5f5f5f;
+};
+
+.btn{
+  cursor: pointer;
+  padding: 0 10px;
+  height: 34px;
+  background-color: $colorAccent;
+  border-radius: 60px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  border:none;
+  outline: none;
+  align-items: center;
+
+  &:hover {
+    background-color: darken($colorAccent, 15);
+    color: #ffffff;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background: #555555;
+
+    &:hover {
+      background: #555555;
+    }
+  }
+};
+
+.btn{
+  cursor: pointer;
+  padding: 0 10px;
+  height: 34px;
+  background-color: $colorAccent;
+  border-radius: 60px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  border:none;
+  outline: none;
+  align-items: center;
+
+  &:hover {
+    background-color: darken($colorAccent, 15);
+    color: #ffffff;
+  }
+};
+
+.btn_deactive{
+  cursor: pointer;
+  padding: 0 10px;
+  height: 34px;
+  background-color: $colorRed;
+  border-radius: 60px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  border:none;
+  outline: none;
+  align-items: center;
+
+  &:hover {
+    background-color: darken($colorRed, 15);
+    color: #ffffff;
+  }
+};

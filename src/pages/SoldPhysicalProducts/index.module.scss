@@ -1,0 +1,39 @@
+@import "./../../style/variables.scss";
+
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+};
+.row{
+  background-color: #5f5f5f;
+  cursor: pointer;
+};
+.Select{
+  width: 200px;
+};
+.duplicateBtn{
+  padding: 0 15px;
+  height: 30px;
+  background-color: $colorAccent;
+  border-radius: 60px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  border:none;
+  outline: none;
+  align-items: center;
+  cursor: pointer;
+  line-height: 1.1;
+
+  &:hover {
+    background-color: darken($colorAccent, 15);
+    color: #ffffff;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+};

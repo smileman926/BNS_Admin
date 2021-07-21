@@ -1,0 +1,40 @@
+.imgCont{
+  min-height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #b3b3b3;
+  border-radius: 26px;
+  margin-bottom: 15px;
+};
+.imgs{
+  border-radius: 15px;
+  border: 2px solid #b9b9b9;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+  &:hover{
+    border: 2px solid #01cb03;
+  }
+};
+.showImages{
+  margin: 0 !important;
+  border: none;
+}
+.imagesCont{
+  position: relative;
+};
+
+.imgDelete{
+  position:absolute;
+  top:7%;
+  right:7%;
+  cursor: pointer;
+};
+.active{
+  border: 2px solid #01cb03 ;
+};

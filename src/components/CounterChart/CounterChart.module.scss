@@ -1,0 +1,54 @@
+@import "./../../style/variables.scss";
+
+.chart_container {
+	background-color: #515151;
+	width: 100%;
+}
+
+.chart_header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 30px;
+	width: 100%;
+}
+
+.chart_header_title {
+	font-size: 18px;
+}
+
+.chart_header_filter {
+	display: flex;
+}
+
+.chart_header_revenue {
+	margin-right: 20px;
+}
+
+.chart_header_revenue_select {
+	width: 120px;
+	border-radius: 15px;
+}
+
+.chart_header_period_select {
+	width: 100px;
+	border-radius: 15px;
+}
+
+.chart_content {
+	color: #fff;
+	height: 250px;
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.total_revenue {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	width: 100%;
+	margin-top: -20px;
+	color: white;
+}

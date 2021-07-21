@@ -1,0 +1,72 @@
+.container{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 15px;
+  flex: 0 0 50%;
+};
+.cnt{
+  display: flex;
+  width: 100%;
+  overflow: auto;
+};
+.textArea{
+  overflow-wrap: break-word;
+  width: 100%;
+  padding-bottom: 10px;
+  background: transparent;
+  border: none;
+  padding-left: 13px;
+  outline: none;
+  color: #b3b3b3;
+};
+.iconsCont{
+  display: flex;
+};
+.faqOpened{
+  align-items: baseline;
+  margin-top: 17px;
+};
+.maxHeight{
+  max-height: 54px;
+};
+.questCont{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width :400px;
+  border-radius: 26px;
+  border: 2px solid #b3b3b3;
+};
+.openQuestCont{
+  display: block;
+};
+.inpt{
+  overflow: hidden;
+  margin: 15px 5px 15px 10px;
+  width : 90%;
+  background: transparent;
+  border: none;
+  outline: none;
+};
+
+.icon{
+  cursor: pointer;
+  margin-right: 10px;
+};
+.deleteIcon{
+  cursor: pointer;
+  margin-left: 10px;
+};
+.changeIcon{
+  cursor: pointer;
+  margin-left: 5px ;
+}
+.faqQuestOpened{
+  overflow-wrap: break-word;
+};
+.openedCnt{
+  margin-top: 5px;
+  align-items: baseline;
+  justify-content: flex-start;
+};

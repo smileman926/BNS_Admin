@@ -1,0 +1,48 @@
+.Circle{
+  border-radius: 100px;
+  border: 1px solid #828282;
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #cc232c;
+    box-shadow: 0 0 5px #cc232c; 
+  }
+
+  &:focus {
+    outline: 0;
+  }
+};
+.circleCont{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 20px;
+};
+.activeCircle{
+  border: 2px solid #cc232c
+};
+.colorCircle{
+  height: 100%;
+};
+.whiteCircle{
+  background: #c5cfd8;
+};
+.greyCircle{
+  background: #727d74;
+};
+.greenCircle{
+  background: #3c4540;
+};
+.brownCircle{
+  background:#a85b49;
+};
+.orangeCircle{
+  background: #e19865 ;
+};
+.change_btn {
+  width: 150px !important;
+  margin-left: 10px;
+}

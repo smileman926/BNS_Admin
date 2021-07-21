@@ -1,0 +1,66 @@
+.confirmDiv {
+  position: fixed;
+  padding: 50px 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  border-radius: 10px;
+  background-color: #444444;
+  box-shadow: 0 0 20px 3px black;
+  z-index: 999;
+  
+  h1 {
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+
+  .btnWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+      margin: 0 10px !important;
+    }
+  }
+}
+
+.balanceWrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  input {
+    background-color: transparent;
+    border: 1px solid #a3a3a3;
+    border-right: none;
+    height: 35px;
+    width: calc(100% - 30px);
+    border-radius: 5px 0 0 5px;
+    color: #a3a3a3;
+    padding: 0 10px;
+    min-width: 60px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  button {
+    background-color: #717171;
+    border: 1px solid #a3a3a3;
+    border-radius: 0 5px 5px 0;
+    height: 35px;
+    padding: 4px 7px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #444444;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+};

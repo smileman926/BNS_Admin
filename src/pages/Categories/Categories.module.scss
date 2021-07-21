@@ -1,0 +1,122 @@
+@import "./../../style/variables.scss";
+
+.box {
+  margin: 20px;
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .title {
+    margin: 0;
+    padding: 0;
+  }
+  .btnAdd {
+    padding: 0 30px;
+    width: initial;
+    background-color: $colorAccent;
+    border-radius: 60px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background-color: darken($colorAccent, 15);
+      color: #ffffff;
+    }
+  }
+}
+
+div.container {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+button.delBtn {
+  background: none;
+  border: none;
+  color: #bdbdbd;
+  &:disabled,
+  &:focus,
+  &:hover {
+    background: none;
+    border: none;
+    color: $colorAccent;
+  }
+
+  &:disabled {
+
+    color: #999999;
+  }
+}
+
+.rowList {
+  background-color: #6a6a6a;
+  padding: 15px 25px;
+  display: flex;
+  box-shadow: 1px 1px 5px 0 #474747;
+  // display: grid;
+  // grid-template-columns: 60px 1fr 200px;
+}
+
+.rowItem {
+  padding: 15px 25px;
+  display: flex;
+  &:nth-of-type(2n) {
+    background-color: #646464;
+  }
+}
+
+.nameCol {
+  font-weight: 700;
+  padding-left: 20px;
+  font-family: $fontWorkSans;
+}
+.nameCategory {
+  padding-left: 20px;
+}
+
+.actionName {
+  text-align: right;
+  margin-left: auto;
+}
+
+span.editIcon {
+  fill: #c1c1c1;
+  svg {
+    $size: 20px;
+    width: $size;
+    height: $size;
+  }
+}
+
+button.button {
+  background: none;
+  border: none;
+  &:focus,
+  &:hover {
+    background:none;
+  }
+}
+
+.wrp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+}
+
+button.cancel {
+  background-color: #404040 ;
+  color: $colorLightGrey;
+  &:hover {
+    background-color: #4b4b4b ;
+
+  }
+}

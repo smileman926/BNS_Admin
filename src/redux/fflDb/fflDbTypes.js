@@ -1,0 +1,11 @@
+export const GET_FFL_REQUEST = "GET_FFL_REQUEST";
+export const GET_FFL_SUCCESS = "GET_FFL_SUCCESS";
+export const GET_FFL_ERROR = "GET_FFL_ERROR";
+
+export const SAVE_FFL_REQUEST = "SAVE_FFL_REQUEST";
+export const SAVE_FFL_SUCCESS = "SAVE_FFL_SUCCESS";
+export const SAVE_FFL_ERROR = "SAVE_FFL_ERROR";
+
+export const EDIT_FFL_REQUEST = "EDIT_FFL_REQUEST";
+export const EDIT_FFL_SUCCESS = "EDIT_FFL_SUCCESS";
+export const EDIT_FFL_ERROR = "EDIT_FFL_ERROR";

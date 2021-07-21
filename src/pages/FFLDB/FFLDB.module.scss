@@ -1,0 +1,84 @@
+@import './../../style/variables.scss';
+.box {
+  margin: 20px;
+  width: 100%;
+  margin-bottom: auto;
+}
+div.container {
+  border-radius: 6px;
+}
+.iconPencil{
+  text-align: center;
+  cursor: pointer;
+};
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .title {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+button.btnAdd {
+  width: initial;
+  // display: inline;
+}
+
+div.datePicker {
+  background: transparent;
+  border-radius: 26px;
+  border-color: #b3b3b3;
+  outline: none;
+  height: 52px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  span {
+    color: rgba(255, 255, 255, 0.863);
+  }
+  input {
+    font-size: 16px;
+    color: #fff;
+  }
+}
+
+.setFFL {
+  display: flex;
+}
+
+div.changeDate {
+  background-color: transparent;
+  border-right-width: 0px;
+  border-color: $colorLightGrey;
+  border-top-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+button.btnSave {
+  background-color: $colorAccent;
+  color: black;
+  border-color: $colorAccent;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  &:focus,
+  &:hover {
+    background-color: darken($colorAccent, 5);
+    border-color: darken($colorAccent, 5);
+    color: #fff;
+  }
+  &:disabled {
+    background-color: $colorDarkGrey;
+    border-color: $colorDarkGrey;
+  }
+  
+}
+
+.expiration_date {
+  min-width: 260px;
+}

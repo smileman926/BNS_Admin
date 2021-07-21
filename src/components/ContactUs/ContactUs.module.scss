@@ -1,0 +1,32 @@
+@import "./../../style/variables.scss";
+.contact_us {
+  color: #909090;
+  width: 100%;
+  padding: 10px;
+
+  .title {
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+  }
+
+  .label {
+    padding: 10px 0px;
+  }
+
+  .email {
+    width: 400px;
+    &:disabled{
+      background: #515151!important;
+    }
+  };
+.textArea{
+  &:disabled{
+    background: #515151!important;
+  }
+}
+
+  .save_button {
+    width: 150px;
+  }
+}
